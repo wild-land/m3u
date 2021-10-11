@@ -1,65 +1,99 @@
 #EXTM3U
-#EXTINF:-1 ,cctv11直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/migu/kailu/cctv11hd/57/20200103/index.m3u8?&encrypt=1
+#EXTINF:-1 ,香港卫视
+https://zb.ios.ifeng.com/live/05QGCOB3T34/index.m3u8
+#EXTINF:-1 ,台湾卫视
+https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8&t=video"
+#EXTINF:-1 ,cctv6直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8
+#EXTINF:-1 ,贵州卫视
+http://ivi.bupt.edu.cn/hls/gzhd.m3u8
+#EXTINF:-1 ,cctv7直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv7_2/index.m3u8
+#EXTINF:-1 ,cctv13直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv13_2/index.m3u8
+#EXTINF:-1 ,广东卫视
+http://39.134.118.91/live.cache.cmvideo.cn:8088/envivo_x/2018/SD/guangdong/1000/index.m3u8?&encrypt=1
+#EXTINF:-1 ,厦门卫视
+http://ivi.bupt.edu.cn/hls/xmtv.m3u8
+#EXTINF:-1 ,海南卫视
+http://ivi.bupt.edu.cn/hls/lyhd.m3u8
+#EXTINF:-1 ,澳门卫视
+http://stream.mastvnet.com/MSTV/SD/live.m3u8
+#EXTINF:-1 ,cctv8直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8
+#EXTINF:-1 ,湖北卫视
+http://ivi.bupt.edu.cn/hls/hbhd.m3u8
+#EXTINF:-1 ,新疆卫视
+http://ivi.bupt.edu.cn/hls/xjtv.m3u8
+#EXTINF:-1 ,云南卫视
+http://shbu.live.bestvcdn.com.cn:8080/live/program/live/ynws/1300000/mnf.m3u8
+#EXTINF:-1 ,cctv1直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv1_2/index.m3u8
+#EXTINF:-1 ,东南卫视
+http://ivi.bupt.edu.cn/hls/dnhd.m3u8
 #EXTINF:-1 ,cctv9直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/migu/kailu/20200324/cctv9hd/57/index.m3u8?&encrypt=1
+http://cctvalih5ca.v.myalicdn.com/live/cctvjilu_2/index.m3u8
+#EXTINF:-1 ,cctv5+直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv5plus_2/index.m3u8
+#EXTINF:-1 ,cctv2直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv2_2/index.m3u8
+#EXTINF:-1 ,cctv3直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv3_2/index.m3u8
+#EXTINF:-1 ,湖南卫视
+http://39.134.118.91/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
+#EXTINF:-1 ,cctv4直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv4_2/index.m3u8
+#EXTINF:-1 ,北京卫视
+http://39.134.118.91/live.cache.cmvideo.cn:8088/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=1
 #EXTINF:-1 ,cctv5直播
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv5hdnew/2500/index.m3u8?&encrypt=
 #EXTINF:-1 ,cctv10直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/2018/ocn/cctv10hd/2000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv5+直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv5plusnew/2500/index.m3u8?&encrypt=
-#EXTINF:-1 ,cctv7直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/migu/kailu/20200324/cctv7hd/57/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv1直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv1hd/2500/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv2直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv2hd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv3直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/ocn/cctv3hd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv4直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv4hd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv8直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/ocn/cctv8hd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv6直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/ocn/cctv6hd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv13直播
-http://39.134.216.5/mgsp.live.miguvideo.com:8088/envivo_x/2018/SD/cctv13/1000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578
-#EXTINF:-1 ,内蒙古卫视
-http://live.m2oplus.nmtv.cn/1/sd/live.m3u8
-#EXTINF:-1 ,香港卫视
-http://117.169.120.160:8080/live/fhzixun/1.m3u8
-#EXTINF:-1 ,广西卫视
-http://shbu.live.bestvcdn.com.cn:8080/live/program/live/gxws/1300000/mnf.m3u8
-#EXTINF:-1 ,澳门卫视
-http://stream.mastvnet.com/MSTV/SD/live.m3u8
-#EXTINF:-1 ,台湾卫视
-https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8&t=video"
-#EXTINF:-1 ,云南卫视
-http://shbu.live.bestvcdn.com.cn:8080/live/program/live/ynws/1300000/mnf.m3u8
+http://cctvcnch5c.v.wscdns.com/live/cctv10_2/index.m3u8
 #EXTINF:-1 ,东方卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index.m3u8?&encrypt=1
 #EXTINF:-1 ,江苏卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/jiangsuhd/2500/index.m3u8?&encrypt=1
-#EXTINF:-1 ,广东卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/envivo_x/2018/SD/guangdong/1000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,北京卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=1
 #EXTINF:-1 ,天津卫视
 http://39.134.216.5/live.cache.cmvideo.cn:8088/wd-tianjinhd-1200/index.m3u8?&encrypt=1
-#EXTINF:-1 ,深圳卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/ws_w/2018/szws/szws711/1000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,安徽卫视
-http://zbbf2.ahtv.cn/live/subfile/submain.m3u8?__hlslivecid=live%2F749&_redcdnuserid=6912957601905200672
+#EXTINF:-1 ,黑龙江卫视
+http://ivi.bupt.edu.cn/hls/hljhd.m3u8
+#EXTINF:-1 ,宁夏卫视
+http://ivi.bupt.edu.cn/hls/nxtv.m3u8
 #EXTINF:-1 ,辽宁卫视
 http://1.183.73.177/liveplay-kk.rtxapp.com/live/program/live/lnwshd/2300000/mnf.m3u8
+#EXTINF:-1 ,重庆卫视
+http://ivi.bupt.edu.cn/hls/cqhd.m3u8
+#EXTINF:-1 ,内蒙古卫视
+http://live.m2oplus.nmtv.cn/1/sd/live.m3u8
+#EXTINF:-1 ,广西卫视
+http://shbu.live.bestvcdn.com.cn:8080/live/program/live/gxws/1300000/mnf.m3u8
+#EXTINF:-1 ,吉林卫视
+http://ivi.bupt.edu.cn/hls/jlhd.m3u8
 #EXTINF:-1 ,四川卫视
 http://shbu.live.bestvcdn.com.cn:8080/live/program/live/scws/1300000/mnf.m3u8
+#EXTINF:-1 ,cctv14直播
+http://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
+#EXTINF:-1 ,西藏卫视
+http://ivi.bupt.edu.cn/hls/xztv.m3u8
+#EXTINF:-1 ,山西卫视
+http://ivi.bupt.edu.cn/hls/sxrtv.m3u8
+#EXTINF:-1 ,陕西卫视
+http://ivi.bupt.edu.cn/hls/sxtv.m3u8
+#EXTINF:-1 ,cctv12直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv12_2/index.m3u8
 #EXTINF:-1 ,山东卫视
 http://1.183.73.177/liveplay-kk.rtxapp.com/live/program/live/sdwshd/2300000/mnf.m3u8
+#EXTINF:-1 ,甘肃卫视
+http://ivi.bupt.edu.cn/hls/gstv.m3u8
+#EXTINF:-1 ,河北卫视
+http://ivi.bupt.edu.cn/hls/hebhd.m3u8
 #EXTINF:-1 ,浙江卫视
 http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-#EXTINF:-1 ,湖南卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
+#EXTINF:-1 ,深圳卫视
+http://39.134.216.5/live.cache.cmvideo.cn:8088/ws_w/2018/szws/szws711/1000/index.m3u8?&encrypt=1
+#EXTINF:-1 ,青海卫视
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578
+#EXTINF:-1 ,安徽卫视
+http://zbbf2.ahtv.cn/live/subfile/submain.m3u8?__hlslivecid=live%2F749&_redcdnuserid=6912957601905200672
+#EXTINF:-1 ,cctv11直播
+http://cctvalih5ca.v.myalicdn.com/live/cctv11_2/index.m3u8
