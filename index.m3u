@@ -1,99 +1,179 @@
 #EXTM3U
-#EXTINF:-1 ,香港卫视
-https://zb.ios.ifeng.com/live/05QGCOB3T34/index.m3u8
-#EXTINF:-1 ,台湾卫视
-https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8&t=video"
-#EXTINF:-1 ,cctv6直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8
-#EXTINF:-1 ,贵州卫视
-http://ivi.bupt.edu.cn/hls/gzhd.m3u8
-#EXTINF:-1 ,cctv7直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv7_2/index.m3u8
-#EXTINF:-1 ,cctv13直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv13_2/index.m3u8
-#EXTINF:-1 ,广东卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/envivo_x/2018/SD/guangdong/1000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,厦门卫视
-http://ivi.bupt.edu.cn/hls/xmtv.m3u8
-#EXTINF:-1 ,海南卫视
-http://ivi.bupt.edu.cn/hls/lyhd.m3u8
-#EXTINF:-1 ,澳门卫视
-http://stream.mastvnet.com/MSTV/SD/live.m3u8
-#EXTINF:-1 ,cctv8直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8
-#EXTINF:-1 ,湖北卫视
-http://ivi.bupt.edu.cn/hls/hbhd.m3u8
-#EXTINF:-1 ,新疆卫视
-http://ivi.bupt.edu.cn/hls/xjtv.m3u8
-#EXTINF:-1 ,云南卫视
-http://shbu.live.bestvcdn.com.cn:8080/live/program/live/ynws/1300000/mnf.m3u8
-#EXTINF:-1 ,cctv1直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv1_2/index.m3u8
-#EXTINF:-1 ,东南卫视
-http://ivi.bupt.edu.cn/hls/dnhd.m3u8
-#EXTINF:-1 ,cctv9直播
-http://cctvalih5ca.v.myalicdn.com/live/cctvjilu_2/index.m3u8
-#EXTINF:-1 ,cctv5+直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv5plus_2/index.m3u8
-#EXTINF:-1 ,cctv2直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv2_2/index.m3u8
-#EXTINF:-1 ,cctv3直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv3_2/index.m3u8
-#EXTINF:-1 ,湖南卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/wd-hunanhd-2500/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv4直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv4_2/index.m3u8
-#EXTINF:-1 ,北京卫视
-http://39.134.118.91/live.cache.cmvideo.cn:8088/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,cctv5直播
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/cctv5hdnew/2500/index.m3u8?&encrypt=
-#EXTINF:-1 ,cctv10直播
-http://cctvcnch5c.v.wscdns.com/live/cctv10_2/index.m3u8
-#EXTINF:-1 ,东方卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r4/dfl/dongfangwshd/3000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,江苏卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd_r2/cctv/jiangsuhd/2500/index.m3u8?&encrypt=1
-#EXTINF:-1 ,天津卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/wd-tianjinhd-1200/index.m3u8?&encrypt=1
-#EXTINF:-1 ,黑龙江卫视
-http://ivi.bupt.edu.cn/hls/hljhd.m3u8
-#EXTINF:-1 ,宁夏卫视
-http://ivi.bupt.edu.cn/hls/nxtv.m3u8
-#EXTINF:-1 ,辽宁卫视
-http://1.183.73.177/liveplay-kk.rtxapp.com/live/program/live/lnwshd/2300000/mnf.m3u8
-#EXTINF:-1 ,重庆卫视
-http://ivi.bupt.edu.cn/hls/cqhd.m3u8
-#EXTINF:-1 ,内蒙古卫视
-http://live.m2oplus.nmtv.cn/1/sd/live.m3u8
-#EXTINF:-1 ,广西卫视
-http://shbu.live.bestvcdn.com.cn:8080/live/program/live/gxws/1300000/mnf.m3u8
-#EXTINF:-1 ,吉林卫视
-http://ivi.bupt.edu.cn/hls/jlhd.m3u8
-#EXTINF:-1 ,四川卫视
-http://shbu.live.bestvcdn.com.cn:8080/live/program/live/scws/1300000/mnf.m3u8
-#EXTINF:-1 ,cctv14直播
-http://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
-#EXTINF:-1 ,西藏卫视
-http://ivi.bupt.edu.cn/hls/xztv.m3u8
-#EXTINF:-1 ,山西卫视
-http://ivi.bupt.edu.cn/hls/sxrtv.m3u8
-#EXTINF:-1 ,陕西卫视
-http://ivi.bupt.edu.cn/hls/sxtv.m3u8
-#EXTINF:-1 ,cctv12直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv12_2/index.m3u8
-#EXTINF:-1 ,山东卫视
-http://1.183.73.177/liveplay-kk.rtxapp.com/live/program/live/sdwshd/2300000/mnf.m3u8
-#EXTINF:-1 ,甘肃卫视
-http://ivi.bupt.edu.cn/hls/gstv.m3u8
-#EXTINF:-1 ,河北卫视
-http://ivi.bupt.edu.cn/hls/hebhd.m3u8
-#EXTINF:-1 ,浙江卫视
-http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-#EXTINF:-1 ,深圳卫视
-http://39.134.216.5/live.cache.cmvideo.cn:8088/ws_w/2018/szws/szws711/1000/index.m3u8?&encrypt=1
-#EXTINF:-1 ,青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578
-#EXTINF:-1 ,安徽卫视
-http://zbbf2.ahtv.cn/live/subfile/submain.m3u8?__hlslivecid=live%2F749&_redcdnuserid=6912957601905200672
-#EXTINF:-1 ,cctv11直播
-http://cctvalih5ca.v.myalicdn.com/live/cctv11_2/index.m3u8
+#EXTINF:-1 group-title="CCTV",CCTV-1 综合
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv1/HD-8000k-1080P-cctv1
+#EXTINF:-1 group-title="CCTV",CCTV-2 财经
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv2/HD-8000k-1080P-cctv2
+#EXTINF:-1 group-title="CCTV",CCTV-3 综艺
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv3/HD-8000k-1080P-cctv3
+#EXTINF:-1 group-title="CCTV",CCTV-4 中文国际
+http://183.207.248.71/cntv/live1/cctv-4/cctv-4
+#EXTINF:-1 group-title="CCTV",CCTV-5 体育
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv5/HD-8000k-1080P-cctv5
+#EXTINF:-1 group-title="CCTV",CCTV-5+ 体育赛事
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv05plus/HD-8000k-1080P-cctv05plus
+#EXTINF:-1 group-title="CCTV",CCTV-6 电影
+http://183.207.248.71/cntv/live1/cctv-6/cctv-6
+#EXTINF:-1 group-title="CCTV",CCTV-7 国防军事
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv7/HD-8000k-1080P-cctv7
+#EXTINF:-1 group-title="CCTV",CCTV-8 电视剧
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv8/HD-8000k-1080P-cctv8
+#EXTINF:-1 group-title="CCTV",CCTV-9 纪录
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv9/HD-8000k-1080P-cctv9
+#EXTINF:-1 group-title="CCTV",CCTV-10 科教
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv10/HD-8000k-1080P-cctv10
+#EXTINF:-1 group-title="CCTV",CCTV-11 戏曲
+http://183.207.248.71/cntv/live1/n-cctv-11/n-cctv-11
+#EXTINF:-1 group-title="CCTV",CCTV-12 社会与法
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv12/HD-8000k-1080P-cctv12
+#EXTINF:-1 group-title="CCTV",CCTV-13 新闻
+http://183.207.248.71/cntv/live1/cctv-13/cctv-13
+#EXTINF:-1 group-title="CCTV",CCTV-14 少儿
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv14/HD-8000k-1080P-cctv14
+#EXTINF:-1 group-title="CCTV",CCTV-15 音乐
+http://183.207.248.71/cntv/live1/n-cctv-15/n-cctv-15
+#EXTINF:-1 group-title="CCTV",CCTV-17 农业农村
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-cctv17/HD-8000k-1080P-cctv17
+#EXTINF:-1 group-title="CCTV",CETV-1
+http://183.207.248.71/cntv/live1/n-jiaoyutv/n-jiaoyutv
+#EXTINF:-1 group-title="CCTV",CETV-2
+http://183.207.248.71/cntv/live1/SD-4000k-576P-jiaoyutv2/SD-4000k-576P-jiaoyutv2
+#EXTINF:-1 group-title="CCTV",CETV-4
+http://183.207.248.71/cntv/live1/SD-4000k-576P-jiaoyutv4/SD-4000k-576P-jiaoyutv4
+#EXTINF:-1 group-title="卫视",广东卫视
+http://183.207.248.71/cntv/live1/n-guangdongstv/n-guangdongstv
+#EXTINF:-1 group-title="卫视",东南卫视
+http://183.207.248.71/cntv/live1/n-dongnanstv/n-dongnanstv
+#EXTINF:-1 group-title="卫视",东方卫视
+http://183.207.248.71/cntv/live1/n-dongfangstv/n-dongfangstv
+#EXTINF:-1 group-title="卫视",北京卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-beijingstv/HD-2500k-1080P-beijingstv
+#EXTINF:-1 group-title="卫视",北京纪实
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-beijingjishi/HD-8000k-1080P-beijingjishi
+#EXTINF:-1 group-title="卫视",南方卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-nanfangstv/SD-4000k-576P-nanfangstv
+#EXTINF:-1 group-title="卫视",厦门卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-xiamenstv/SD-4000k-576P-xiamenstv
+#EXTINF:-1 group-title="卫视",天津卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-tianjinstv/HD-2500k-1080P-tianjinstv
+#EXTINF:-1 group-title="卫视",安徽卫视
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-anhuistv/HD-8000k-1080P-anhuistv
+#EXTINF:-1 group-title="卫视",山东卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv
+#EXTINF:-1 group-title="卫视",江苏卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
+#EXTINF:-1 group-title="卫视",江西卫视
+http://183.207.248.71/cntv/live1/jiangxistv/jiangxistv
+#EXTINF:-1 group-title="卫视",河北卫视
+http://183.207.248.71/cntv/live1/n-hebeistv/n-hebeistv
+#EXTINF:-1 group-title="卫视",浙江卫视
+http://183.207.248.71/cntv/live1/zhejiangstv/zhejiangstv
+#EXTINF:-1 group-title="卫视",深圳卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv
+#EXTINF:-1 group-title="卫视",湖北卫视
+http://183.207.248.71/cntv/live1/HD-2500k-1080P-hubeistv/HD-2500k-1080P-hubeistv
+#EXTINF:-1 group-title="卫视",湖南卫视
+http://183.207.248.71/cntv/live1/hunanstv/hunanstv
+#EXTINF:-1 group-title="卫视",重庆卫视
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-chongqingstv/HD-8000k-1080P-chongqingstv
+#EXTINF:-1 group-title="卫视",黑龙江卫视
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-heilongjiangstv/HD-8000k-1080P-heilongjiangstv
+#EXTINF:-1 group-title="卫视",四川卫视
+http://183.207.248.71/cntv/live1/n-sichuanstv/n-sichuanstv
+#EXTINF:-1 group-title="卫视",云南卫视
+http://183.207.248.71/cntv/live1/n-yntv1/n-yntv1
+#EXTINF:-1 group-title="卫视",宁夏卫视
+http://183.207.248.71/cntv/live1/n-ningxiastv/n-ningxiastv
+#EXTINF:-1 group-title="卫视",兵团卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-bingtuanstv/SD-4000k-576P-bingtuanstv
+#EXTINF:-1 group-title="卫视",内蒙古卫视
+http://183.207.248.71/cntv/live1/n-neimenggustv/n-neimenggustv
+#EXTINF:-1 group-title="卫视",农林卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-nonglinstv/SD-4000k-576P-nonglinstv
+#EXTINF:-1 group-title="卫视",山西卫视
+http://183.207.248.71/cntv/live1/n-shanxistv/n-shanxistv
+#EXTINF:-1 group-title="卫视",广西卫视
+http://183.207.248.71/cntv/live1/n-guangxistv/n-guangxistv
+#EXTINF:-1 group-title="卫视",康巴卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-kambatv/SD-4000k-576P-kambatv
+#EXTINF:-1 group-title="卫视",延边卫视
+http://183.207.248.71/cntv/live1/SD-4000k-576P-yanbianstv/SD-4000k-576P-yanbianstv
+#EXTINF:-1 group-title="卫视",新疆卫视
+http://183.207.248.71/cntv/live1/n-xjtv1/n-xjtv1
+#EXTINF:-1 group-title="卫视",甘肃卫视
+http://183.207.248.71/cntv/live1/n-gansustv/n-gansustv
+#EXTINF:-1 group-title="卫视",安多卫视
+http://183.207.248.71/cntv/live1/anduostv/anduostv
+#EXTINF:-1 group-title="卫视",宁夏卫视
+http://183.207.248.71/cntv/live1/n-ningxiastv/n-ningxiastv
+#EXTINF:-1 group-title="卫视",西藏卫视
+http://183.207.248.71/cntv/live1/n-xizangstv/n-xizangstv
+#EXTINF:-1 group-title="卫视",贵州卫视
+http://183.207.248.71/cntv/live1/n-guizhoustv/n-guizhoustv
+#EXTINF:-1 group-title="卫视",河南卫视
+http://183.207.248.71/cntv/live1/henanstv/henanstv
+#EXTINF:-1 group-title="卫视",辽宁卫视
+http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
+#EXTINF:-1 group-title="卫视",陕西卫视
+http://183.207.248.71/cntv/live1/n-shanxi1stv/n-shanxi1stv
+#EXTINF:-1 group-title="卫视",青海卫视
+http://183.207.248.71/cntv/live1/n-qinghaistv/n-qinghaistv
+#EXTINF:-1 group-title="卫视",纪实人文
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-shanghaijishi/HD-8000k-1080P-shanghaijishi
+#EXTINF:-1 group-title="卫视",山东教育电视台
+http://183.207.248.71/cntv/live1/n-shandongjy/n-shandongjy
+#EXTINF:-1 group-title="NewTV",NewTV世界搏击
+http://183.207.248.71/cntv/live1/n-bokesen/n-bokesen
+#EXTINF:-1 group-title="NewTV",NewTV健康有约
+http://183.207.248.71/cntv/live1/n-ljiankangyouyue/n-ljiankangyouyue
+#EXTINF:-1 group-title="NewTV",NewTV军事评论
+http://183.207.248.71/cntv/live1/n-junshipl/n-junshipl
+#EXTINF:-1 group-title="NewTV",NewTV古装剧场
+http://183.207.248.71/cntv/live1/n-guzhuangjc/n-guzhuangjc
+#EXTINF:-1 group-title="NewTV",NewTV军旅剧场
+http://183.207.248.71/cntv/live1/n-junlvjc/n-junlvjc
+#EXTINF:-1 group-title="NewTV",NewTV农业致富
+http://183.207.248.71/cntv/live1/n-nongyezf/n-nongyezf
+#EXTINF:-1 group-title="NewTV",NewTV动作电影
+http://183.207.248.71/cntv/live1/n-dongzuody/n-dongzuody
+#EXTINF:-1 group-title="NewTV",NewTV家庭剧场
+http://183.207.248.71/cntv/live1/n-jiatingjc/n-jiatingjc
+#EXTINF:-1 group-title="NewTV",NewTV惊悚电影
+http://183.207.248.71/cntv/live1/n-jingsongxy/n-jingsongxy
+#EXTINF:-1 group-title="NewTV",NewTV潮妈辣婆
+http://183.207.248.71/cntv/live1/n-cmlapo/n-cmlapo
+#EXTINF:-1 group-title="NewTV",NewTV炫舞未来
+http://183.207.248.71/cntv/live1/HD-4000k-1080P-xwwl/HD-4000k-1080P-xwwl
+#EXTINF:-1 group-title="NewTV",NewTV爱情喜剧
+http://183.207.248.71/cntv/live1/n-aiqingxj/n-aiqingxj
+#EXTINF:-1 group-title="NewTV",NewTV精品体育
+http://183.207.248.71/cntv/live1/n-jtiyu/n-jtiyu
+#EXTINF:-1 group-title="NewTV",NewTV精品大剧
+http://183.207.248.71/cntv/live1/n-jdaju/n-jdaju
+#EXTINF:-1 group-title="NewTV",NewTV精品纪录
+http://183.207.248.71/cntv/live1/n-jingpinjl/n-jingpinjl
+#EXTINF:-1 group-title="NewTV",NewTV金牌综艺
+http://183.207.248.71/cntv/live1/n-saishijx/n-saishijx
+#EXTINF:-1 group-title="NewTV",NewTV中国功夫
+http://183.207.248.71/cntv/live1/n-gzkongfu/n-gzkongfu
+#EXTINF:-1 group-title="NewTV",NewTV热播精选
+http://183.207.248.71/cntv/live1/n-xiqumd/n-xiqumd
+#EXTINF:-1 group-title="NewTV",NewTV精品综合
+http://183.207.248.71/cntv/live1/n-mingxingdp/n-mingxingdp
+#EXTINF:-1 group-title="NewTV",NewTV黑莓电竞之夜
+http://183.207.248.71/cntv/live1/wmyx/wmyx
+#EXTINF:-1 group-title="NewTV",NewTV黑莓电影
+http://183.207.248.71/cntv/live1/HD-8000k-1080P-Supermovie/HD-8000k-1080P-Supermovie
+#EXTINF:-1 group-title="NewTV",NewTV黑莓动画
+http://183.207.248.71/cntv/live1/donghuawg/donghuawg
+#EXTINF:-1 group-title="卡通",卡酷少儿
+http://183.207.248.71/cntv/live1/n-kakukaton/n-kakukaton
+#EXTINF:-1 group-title="卡通",嘉佳卡通
+http://183.207.248.71/cntv/live1/SD-4000k-576P-jiajiakaton/SD-4000k-576P-jiajiakaton
+#EXTINF:-1 group-title="卡通",炫动卡通
+http://183.207.248.71/cntv/live1/n-xuandongkaton/n-xuandongkaton
+#EXTINF:-1 group-title="卡通",金鹰卡通
+http://183.207.248.71/cntv/live1/n-jinyingkaton/n-jinyingkaton
+#EXTINF:-1 group-title="卡通",优漫卡通
+http://183.207.248.71/cntv/live1/n-youmankaton/n-youmankaton
+#EXTINF:-1 group-title="卡通",中华美食
+http://183.207.248.71/cntv/live1/SD-4000k-576P-zhmeishi/SD-4000k-576P-zhmeishi
