@@ -1,0 +1,442 @@
+{
+    "dns": {
+        "rules": [
+            {
+                "clash_mode": "global",
+                "server": "remote"
+            },
+            {
+                "clash_mode": "direct",
+                "server": "local"
+            },
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "local"
+            },
+            {
+                "geosite": "cn",
+                "server": "local"
+            }
+        ],
+        "servers": [
+            {
+                "address": "https://1.1.1.1/dns-query",
+                "detour": "select",
+                "tag": "remote"
+            },
+            {
+                "address": "https://223.5.5.5/dns-query",
+                "detour": "direct",
+                "tag": "local"
+            }
+        ],
+        "strategy": "ipv4_only"
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "secret": "",
+            "store_selected": true
+        }
+    },
+    "inbounds": [
+        {
+            "auto_route": true,
+            "domain_strategy": "ipv4_only",
+            "endpoint_independent_nat": true,
+            "inet4_address": "172.19.0.1/30",
+            "mtu": 9000,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "strict_route": true,
+            "type": "tun"
+        },
+        {
+            "domain_strategy": "ipv4_only",
+            "listen": "127.0.0.1",
+            "listen_port": 2333,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "socks-in",
+            "type": "socks",
+            "users": []
+        },
+        {
+            "domain_strategy": "ipv4_only",
+            "listen": "127.0.0.1",
+            "listen_port": 2334,
+            "sniff": true,
+            "sniff_override_destination": true,
+            "tag": "mixed-in",
+            "type": "mixed",
+            "users": []
+        }
+    ],
+    "log": {},
+    "outbounds": [
+        {
+            "tag": "select",
+            "type": "selector",
+            "default": "urltest",
+            "outbounds": [
+                "urltest",
+                "剩余流量：299.71 GB",
+                "套餐到期：2023-09-10",
+                "香港 01",
+                "香港 02",
+                "香港 03",
+                "香港 04 [IEPL 2x]",
+                "香港 05 [IEPL 2x]",
+                "香港 06 [IEPL 2x]",
+                "日本 01",
+                "日本 02",
+                "日本 03",
+                "日本 04 [IEPL 2x]",
+                "美国 01",
+                "美国 02",
+                "美国 03",
+                "美国 04 [IEPL 2x]",
+                "新加坡 01",
+                "新加坡 02",
+                "新加坡 03",
+                "新加坡 04 [IEPL 2x]",
+                "台湾 01",
+                "台湾 02",
+                "台湾 03 [IEPL 2x]",
+                "韩国 01",
+                "韩国 02",
+                "GPT 01 [JP 2.5x]",
+                "GPT 03 [SGP 2.5x]",
+                "GPT 04 [US 2.5x]",
+                "GPT 05 [HK 2.5x]",
+                "GPT 06 [KR 2.5x]"
+            ]
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51111,
+            "tag": "剩余流量：299.71 GB",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51111,
+            "tag": "套餐到期：2023-09-10",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51111,
+            "tag": "香港 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51112,
+            "tag": "香港 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51113,
+            "tag": "香港 03",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51011,
+            "tag": "香港 04 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51012,
+            "tag": "香港 05 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51013,
+            "tag": "香港 06 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51121,
+            "tag": "日本 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51122,
+            "tag": "日本 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51123,
+            "tag": "日本 03",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51021,
+            "tag": "日本 04 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51131,
+            "tag": "美国 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51132,
+            "tag": "美国 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51133,
+            "tag": "美国 03",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51031,
+            "tag": "美国 04 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51141,
+            "tag": "新加坡 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51142,
+            "tag": "新加坡 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51143,
+            "tag": "新加坡 03",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51041,
+            "tag": "新加坡 04 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51151,
+            "tag": "台湾 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51152,
+            "tag": "台湾 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "apnep2erpyyj4ef86.anrida715.me",
+            "server_port": 51051,
+            "tag": "台湾 03 [IEPL 2x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51161,
+            "tag": "韩国 01",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 51162,
+            "tag": "韩国 02",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 40036,
+            "tag": "GPT 01 [JP 2.5x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 40000,
+            "tag": "GPT 03 [SGP 2.5x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 40001,
+            "tag": "GPT 04 [US 2.5x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 40002,
+            "tag": "GPT 05 [HK 2.5x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "password": "ef0b9055-3e87-4524-9377-6cbc887c1be2",
+            "server": "camy3aydjwpettcn.psuddd789.com",
+            "server_port": 40037,
+            "tag": "GPT 06 [KR 2.5x]",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "urltest",
+            "type": "urltest",
+            "outbounds": [
+                "剩余流量：299.71 GB",
+                "套餐到期：2023-09-10",
+                "香港 01",
+                "香港 02",
+                "香港 03",
+                "香港 04 [IEPL 2x]",
+                "香港 05 [IEPL 2x]",
+                "香港 06 [IEPL 2x]",
+                "日本 01",
+                "日本 02",
+                "日本 03",
+                "日本 04 [IEPL 2x]",
+                "美国 01",
+                "美国 02",
+                "美国 03",
+                "美国 04 [IEPL 2x]",
+                "新加坡 01",
+                "新加坡 02",
+                "新加坡 03",
+                "新加坡 04 [IEPL 2x]",
+                "台湾 01",
+                "台湾 02",
+                "台湾 03 [IEPL 2x]",
+                "韩国 01",
+                "韩国 02",
+                "GPT 01 [JP 2.5x]",
+                "GPT 03 [SGP 2.5x]",
+                "GPT 04 [US 2.5x]",
+                "GPT 05 [HK 2.5x]",
+                "GPT 06 [KR 2.5x]"
+            ]
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "rules": [
+            {
+                "geosite": "category-ads-all",
+                "outbound": "block"
+            },
+            {
+                "outbound": "dns-out",
+                "protocol": "dns"
+            },
+            {
+                "clash_mode": "direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "global",
+                "outbound": "select"
+            },
+            {
+                "geoip": [
+                    "cn",
+                    "private"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": "geolocation-!cn",
+                "outbound": "select"
+            },
+            {
+                "geosite": "cn",
+                "outbound": "direct"
+            }
+        ]
+    }
+}
